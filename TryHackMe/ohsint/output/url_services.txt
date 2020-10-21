@@ -1,0 +1,20 @@
+# BANNER FILE NOT PROVIDED (-b option)
+# BULK_EXTRACTOR-Version: 1.6.0 ($Rev: 10844 $)
+# Feature-Recorder: url
+# Filename: index.html
+# Histogram-File-Version: 1.1
+n=13	oliverwoodflint.wordpress.com
+n=9	wordpress.com
+n=7	s2.wp.com
+n=5	s0.wp.com
+n=5	s1.wp.com
+n=1	automattic.com
+n=1	developer.mozilla.org
+n=1	forums.wordpress.com
+n=1	gmpg.org
+n=1	pixel.wp.com
+n=1	public-api.wordpress.com
+n=1	ssl
+n=1	support.wordpress.com
+n=1	wp.me
+n=1	www

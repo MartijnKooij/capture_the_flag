@@ -12,7 +12,7 @@ Stabilize shell
 `python -c 'import pty; pty.spawn("/bin/bash")'`
 
 Scan for directories
-gobuster dir -u $IP/ -w /usr/share/wordlists/dirb/common.txt
+`gobuster dir -u $IP/ -w /usr/share/wordlists/dirb/common.txt`
 
 ```
 robots.txt

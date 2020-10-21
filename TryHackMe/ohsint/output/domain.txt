@@ -1,0 +1,54 @@
+# BANNER FILE NOT PROVIDED (-b option)
+# BULK_EXTRACTOR-Version: 1.6.0 ($Rev: 10844 $)
+# Feature-Recorder: domain
+# Filename: index.html
+# Feature-File-Version: 1.1
+168	gmpg.org	e" href="http://gmpg.org/xfn/11">\x0A\x0A<titl
+2005	oliverwoodflint.wordpress.com	" href="https://oliverwoodflint.wordpress.com/feed/" />\x0A<link
+2160	oliverwoodflint.wordpress.com	" href="https://oliverwoodflint.wordpress.com/comments/feed/"
+5126	s0.wp.com	' href='https://s0.wp.com/_static/??-eJyd
+7556	s2.wp.com	' href='https://s2.wp.com/_static/??-eJyd
+7912	s2.wp.com	' href='https://s2.wp.com/wp-content/mu-p
+8090	s2.wp.com	' href='https://s2.wp.com/wp-content/mu-p
+8647	s0.wp.com	' href='https://s0.wp.com/wp-content/them
+8793	s2.wp.com	t' src='https://s2.wp.com/_static/??/wp-i
+8995	s0.wp.com	' href='https://s0.wp.com/wp-content/mu-p
+9206	s2.wp.com	  href='https://s2.wp.com/wp-content/mu-p
+9406	oliverwoodflint.wordpress.com	" href="https://oliverwoodflint.wordpress.com/xmlrpc.php?rsd"
+9528	s1.wp.com	" href="https://s1.wp.com/wp-includes/wlw
+9657	wp.me	' href='https://wp.me/aLPxB' />\x0A\x0A<!--
+9925	oliverwoodflint.wordpress.com	ontent="https://oliverwoodflint.wordpress.com/" />\x0A<meta prop
+10068	s0.wp.com	ontent="https://s0.wp.com/i/blank.jpg" />
+10347	s1.wp.com	" href="https://s1.wp.com/i/favicon.ico" 
+10458	s1.wp.com	" href="https://s1.wp.com/i/favicon.ico" 
+10561	s2.wp.com	" href="https://s2.wp.com/i/webclip.png" 
+10667	oliverwoodflint.wordpress.com	" href="https://oliverwoodflint.wordpress.com/osd.xml" title=
+10817	s1.wp.com	" href="https://s1.wp.com/opensearch.xml"
+11165	oliverwoodflint.wordpress.com	ion-uri=https://oliverwoodflint.wordpress.com/feed/;icon-uri=
+11333	wordpress.com	tion-uri=http://wordpress.com/signup/;icon-ur
+11485	support.wordpress.com	tion-uri=http://support.wordpress.com/;icon-uri=https
+11637	forums.wordpress.com	tion-uri=http://forums.wordpress.com/;icon-uri=https
+11892	wordpress.com	a[href="https://wordpress.com/?ref=footer_blo
+11949	wordpress.com	a[href="https://wordpress.com/?ref=footer_web
+12009	wordpress.com	a[href="https://wordpress.com/?ref=vertical_f
+12071	wordpress.com	[href^="https://wordpress.com/?ref=footer_seg
+12205	wordpress.com	href = 'https://wordpress.com/advertising-pro
+15883	ssl	ocol ? 'https://ssl' : 'http://www'
+15898	www	/ssl' : 'http://www') + '.google-an
+16530	oliverwoodflint.wordpress.com	a href="https://oliverwoodflint.wordpress.com/" rel="home">Ol
+17389	oliverwoodflint.wordpress.com	a href="https://oliverwoodflint.wordpress.com/contact/">Conta
+17892	oliverwoodflint.wordpress.com	a href="https://oliverwoodflint.wordpress.com/2019/03/03/the-
+18348	oliverwoodflint.wordpress.com	a href="https://oliverwoodflint.wordpress.com/author/owoodfli
+18518	oliverwoodflint.wordpress.com	a href="https://oliverwoodflint.wordpress.com/category/uncate
+18692	oliverwoodflint.wordpress.com	a href="https://oliverwoodflint.wordpress.com/2019/03/03/the-
+18869	oliverwoodflint.wordpress.com	a href="https://oliverwoodflint.wordpress.com/2019/03/03/the-
+19474	wordpress.com	a href="https://wordpress.com/?ref=footer_web
+19881	wordpress.com	" href="https://wordpress.com/start/en-gb?ref
+20049	wordpress.com	" href="https://wordpress.com/start/en-gb?ref
+20311	s1.wp.com	t' src='https://s1.wp.com/wp-content/mu-p
+22064	s0.wp.com	t' src='https://s0.wp.com/_static/??/wp-c
+22443	developer.mozilla.org	\x09\x09\x09\x09\x09// https://developer.mozilla.org/en-US/docs/Web/
+24396	public-api.wordpress.com	'GET', 'https://public-api.wordpress.com/geo/', true );\x0A
+26193	automattic.com	a href="https://automattic.com/cookies" rel="n
+28411	s2.wp.com	t' src='https://s2.wp.com/_static/??-eJyd
+30060	pixel.wp.com	mg src="https://pixel.wp.com/b.gif?v=noscrip

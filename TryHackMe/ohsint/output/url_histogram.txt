@@ -1,0 +1,49 @@
+# BANNER FILE NOT PROVIDED (-b option)
+# BULK_EXTRACTOR-Version: 1.6.0 ($Rev: 10844 $)
+# Feature-Recorder: url
+# Filename: index.html
+# Histogram-File-Version: 1.1
+n=2	https://oliverwoodflint.wordpress.com/
+n=2	https://oliverwoodflint.wordpress.com/2019/03/03/the-journey-begins/
+n=2	https://s1.wp.com/i/favicon.ico
+n=2	https://wordpress.com/?ref=footer_website
+n=2	https://wordpress.com/start/en-gb?ref=marketing_bar
+n=1	http://forums.wordpress.com/;icon-uri=https://s1.wp.com/i/favicon.ico
+n=1	http://gmpg.org/xfn/11
+n=1	http://support.wordpress.com/;icon-uri=https://s1.wp.com/i/favicon.ico
+n=1	http://wordpress.com/signup/;icon-uri=https://s1.wp.com/i/favicon.ico
+n=1	http://www
+n=1	https://automattic.com/cookies
+n=1	https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie/Simple_document.cookie_framework
+n=1	https://oliverwoodflint.wordpress.com/2019/03/03/the-journey-begins/#respond
+n=1	https://oliverwoodflint.wordpress.com/author/owoodflint/
+n=1	https://oliverwoodflint.wordpress.com/category/uncategorised/
+n=1	https://oliverwoodflint.wordpress.com/comments/feed/
+n=1	https://oliverwoodflint.wordpress.com/contact/
+n=1	https://oliverwoodflint.wordpress.com/feed/
+n=1	https://oliverwoodflint.wordpress.com/feed/;icon-uri=https://s1.wp.com/i/favicon.ico
+n=1	https://oliverwoodflint.wordpress.com/osd.xml
+n=1	https://oliverwoodflint.wordpress.com/xmlrpc.php?rsd
+n=1	https://pixel.wp.com/b.gif?v=noscript
+n=1	https://public-api.wordpress.com/geo/
+n=1	https://s0.wp.com/_static/??-eJydkWtqAzEMhC9Ur7oJhPRH6VlkWzhOrLWRbJa9fbxpE9IHaSkGg0bzDYiBuRiXp0pTBW6mpBbipDAXl9kox0TLl2lwqk9wh9mUww1klBPVOAVjUaBbPyuP4TmLR68QUraYvnmvttD6aElC3wjByzAOI9gWk1/j3MmkaAVlAa1Loj/EXCiFI9WCK45LbtUEif6/EYLrxfoL7vIHthn6Ax+13jTzM3rX0Xp817lgXR1MPiIl4m57hL2XaW0RUjX959jY1EMHL92+8eu4ex63u/12vzmeAfBiy8A=?cssminify=yes
+n=1	https://s0.wp.com/_static/??/wp-content/js/jquery/jquery.autoresize.js
+n=1	https://s0.wp.com/i/blank.jpg
+n=1	https://s0.wp.com/wp-content/mu-plugins/highlander-comments/style.css?m=1530132353h&cssminify=yes
+n=1	https://s0.wp.com/wp-content/themes/h4/global.css?m=1420737423h&cssminify=yes
+n=1	https://s1.wp.com/opensearch.xml
+n=1	https://s1.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781h
+n=1	https://s1.wp.com/wp-includes/wlwmanifest.xml
+n=1	https://s2.wp.com/_static/??-eJydkEsOwjAMRC9EMEWqVBaIs6SpSQ35qXEUcXsMLGjFZ9GN5ZH1PB5DTcrEwBgYfFHJFUshg8WAE8ngR7s1OW9gxvKIHjOk0gOFARNKCaxEO8ojTmoPmW8O14CCQO+iua6ypWBe1qomE/3HilnqSoNFzoBFpvFKqJyuwOiT0yw23xMs3haVHKqZYlgIdXaapn/ohBLRSmufed/yAZ38sWkPTde1Tbe73AFpDqOu?cssminify=yes
+n=1	https://s2.wp.com/_static/??-eJydkdFqwzAMRX9omrqOtvSh7FtcW02V2LKx5GSfP+eljMIKy4uQ7tU9IIRLAZ/FSAxHxUAzeyrf76O+4S/L7pRIsbQrsgQq1IsY9Dmy3qnCfk2Lm3lwxlm25f+wtsF04gKRZYJb9k3hxluuYvGovnIxWIrP6RmRGpTYBhbFhcNApkitu3ligugWNEolOqMn/QXHhcQCV1cxOTWqvYM8U60cOuWh/ZNg1flJX4X8+rg19Oj69le6fBx3+9PxfDh8jj8Jz9Br
+n=1	https://s2.wp.com/_static/??/wp-includes/js/jquery/jquery.js
+n=1	https://s2.wp.com/i/webclip.png
+n=1	https://s2.wp.com/wp-content/mu-plugins/actionbar/actionbar.css?m=1602769553h&cssminify=yes
+n=1	https://s2.wp.com/wp-content/mu-plugins/global-print/global-print.css?m=1465851035h&cssminify=yes
+n=1	https://s2.wp.com/wp-content/mu-plugins/highlander-comments/style-ie7.css?m=1351637563h&#038;ver=20110606
+n=1	https://ssl
+n=1	https://wordpress.com/?ref=footer_blog
+n=1	https://wordpress.com/?ref=footer_segment_
+n=1	https://wordpress.com/?ref=vertical_footer
+n=1	https://wordpress.com/advertising-program-optout
+n=1	https://wp.me/aLPxB
