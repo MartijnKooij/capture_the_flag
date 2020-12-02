@@ -16,8 +16,6 @@ Unlike last time, no one has claimed responsibility for this incident. *Here we 
 `export IP=10.10.31.26`
 
 # Day 2
-`export IP=10.10.34.147`
-
-Id number:  `ODIzODI5MTNiYmYw`
+`export IP=10.10.252.178`
 
 http://10.10.43.10/uploads/
