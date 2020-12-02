@@ -1,7 +1,7 @@
 # WSL2 port forwarding
 # https://github.com/microsoft/WSL/issues/4150#issuecomment-504209723
 
-$remoteport = '172.17.163.9' #ifconfig IP of the WSL2 machine
+$remoteport = '172.28.160.1' #ifconfig IP of the WSL2 machine
 
 #[Ports]
 
@@ -11,7 +11,7 @@ $ports=@(3333, 1234);
 
 #[Static ip]
 #You can change the addr to your ip config to listen to a specific address
-$addr='10.8.97.41'; #Source Machine IP (TryHackMe VPN http://10.10.10.10/)
+$addr='10.10.217.69'; #Source Machine IP (TryHackMe VPN http://10.10.10.10/)
 $ports_a = $ports -join ",";
 
 
@@ -28,5 +28,5 @@ for( $i = 0; $i -lt $ports.length; $i++ ){
   Invoke-Expression "netsh interface portproxy add v4tov4 listenport=$port listenaddress=$addr connectport=$port connectaddress=$remoteport";
 }
 
-# iex "netsh interface portproxy delete v4tov4 listenport=1234 listenaddress=10.8.97.41";
-# iex "netsh interface portproxy add v4tov4 listenport=1234 listenaddress=10.8.97.41 connectport=1234 connectaddress=172.21.181.131";
+# iex "netsh interface portproxy delete v4tov4 listenport=1234 listenaddress=10.10.34.147";
+# iex "netsh interface portproxy add v4tov4 listenport=1234 listenaddress=10.10.34.147 connectport=1234 connectaddress=172.28.164.104";

