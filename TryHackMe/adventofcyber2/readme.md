@@ -15,7 +15,22 @@ Unlike last time, no one has claimed responsibility for this incident. *Here we 
 # Day 1
 `export IP=10.10.31.26`
 
+- Decrypting the auth cookie using https://gchq.github.io/CyberChef/
+- Modifying the value and encrypting it again
+- Replace the cookie and refresh to gain access
+
 # Day 2
 `export IP=10.10.252.178`
 
-http://10.10.43.10/uploads/
+- Discovering folders using gobuster, found http://10.10.43.10/uploads/
+- Figuring out what file types to use to avoid the extension filter
+- Upload the reverse shell
+- Run netcat to start listening on the port defined in the revshell script
+- Open the revshell which we uploaded
+- Did not take the time to figure out how to stabilize the shell, just used `find` to find the flag.txt
+
+# Day 3
+
+`export IP=10.10.109.129`
+
+- Used ZAP to brute force try different usernames and passwords.
