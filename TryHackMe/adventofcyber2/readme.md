@@ -34,3 +34,13 @@ Unlike last time, no one has claimed responsibility for this incident. *Here we 
 `export IP=10.10.109.129`
 
 - Used ZAP to brute force try different usernames and passwords.
+
+# Day 4
+
+`export IP=10.10.138.12`
+
+Date format is `YYYYMMDD`
+
+- Compose the wfuzz command according to the example
+- Run gobuster searching for php files as well using `-x "php"`
+- Use wfuzz and the provided wordlist to find the correct date for which the api returns the key.
