@@ -69,3 +69,9 @@ sqlmap --url http://10.10.159.207:8000/santapanel?search=abc --method=GET --dbms
 `http://10.10.197.95:5000`
 
 - Basic XSS, no flag to be found, boring day :(
+
+# Day 7
+
+Another basic day, just getting a bit familiar with filtering in Wireshark. Useful but it remains way too basic.
+
+- Had some trouble saving the application/zip response as binary data because Wireshark kept hanging. Probably just my tiny laptop unable to handle it, took some waiting before it succeeded.
