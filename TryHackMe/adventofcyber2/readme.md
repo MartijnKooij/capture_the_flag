@@ -134,3 +134,21 @@ user:[elfmcelferson] rid:[0x3e9]
 - `use auxiliary/scanner/portscan/tcp`
 - Run a scan using `db_nmap -sV -Pn -A -p 3389,8009,8080 10.10.135.29`
 - After searching for the right cve and using that in metasploit we have to configure the options. Took a long time to discover that I should use the /cgi-bin/elfwhacker.bat that was desribed in the descrption...
+
+# Day 13
+
+`export IP=10.10.50.92`
+
+- Perform an nmap scan and connect to the discovered telnet server.
+- Use pty to stabilize shell
+`python -c 'import pty; pty.spawn("/bin/bash")'`
+- Download original dirtyCow: https://raw.githubusercontent.com/FireFart/dirtycow/master/dirty.c, host it on a python webserver and download it on the victim machine.
+- Compile and run it on the machine and switch to the created user `su firefart`.
+- Check the /root directory and follow the instructions left there.
+
+### Found info
+```c
+const char *filename = "/etc/passwd";
+const char *backup_filename = "/tmp/passwd.bak";
+const char *salt = "grinch";
+```
