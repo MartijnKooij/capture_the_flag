@@ -152,3 +152,21 @@ const char *filename = "/etc/passwd";
 const char *backup_filename = "/tmp/passwd.bak";
 const char *salt = "grinch";
 ```
+
+# Day 14
+
+Reddit user `IGuidetheClaus2020`
+
+http://exif.regex.info/exif.cgi
+
+# Day 15
+
+Simple python tutorial
+
+# Day 16
+
+`export IP=10.10.86.147`
+
+http://10.10.86.147:8000/static/index.html
+
+- The text made it sound like you only had 1-2 attempts, in the end I just tested my luck and succesfully ran it for all the odd numbers 1-99...
