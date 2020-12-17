@@ -170,3 +170,14 @@ Simple python tutorial
 http://10.10.86.147:8000/static/index.html
 
 - The text made it sound like you only had 1-2 attempts, in the end I just tested my luck and succesfully ran it for all the odd numbers 1-99...
+
+# Day 17
+
+`export IP=10.10.50.126`
+user: elfmceager
+pass: adventofcyber
+
+scp elfmceager@$IP:challenge1 ./
+
+- Quite weird that radare2 showed differet output on my machine as it does in the description. My output looks way cleaner, more modern, readable assembly. Maybe I got a newer version of r2 somehow?
+- In the end I did not bother with actually stepping through the debugger. Not sure if reverse engineering is my area so for now I just interpreted the assembly.
