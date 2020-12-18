@@ -181,3 +181,12 @@ scp elfmceager@$IP:challenge1 ./
 
 - Quite weird that radare2 showed differet output on my machine as it does in the description. My output looks way cleaner, more modern, readable assembly. Maybe I got a newer version of r2 somehow?
 - In the end I did not bother with actually stepping through the debugger. Not sure if reverse engineering is my area so for now I just interpreted the assembly.
+
+# Day 18
+
+`export IP=10.10.33.225`
+
+- Connect to RDP, decompile the app using IlSpy and browse through the decompiled code.
+
+Username: cmnatic
+Password: Adventofcyber!
