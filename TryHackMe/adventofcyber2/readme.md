@@ -190,3 +190,17 @@ scp elfmceager@$IP:challenge1 ./
 
 Username: cmnatic
 Password: Adventofcyber!
+
+# Day 19
+
+`export IP=10.10.224.79`
+
+- Update the `/etc/hosts` file adding `http://localtest.me/`.
+- Possible SSRF param `proxy=http://list.hohoho:8080/search.php?name=martijn`
+
+# Day 20
+
+`export IP=10.10.198.218`
+
+- Executing PS commands on a really slow PS over ssh connection...
+- Found in 2.txt at pos 558704
