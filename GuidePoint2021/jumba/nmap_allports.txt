@@ -1,0 +1,49 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-02-22 22:04 CET
+Nmap scan report for 10.10.10.41
+Host is up (0.11s latency).
+Not shown: 65533 closed ports
+PORT      STATE SERVICE    VERSION
+3389/tcp  open  http-proxy Squid http proxy 3.5.12
+| http-open-proxy: Potentially OPEN proxy.
+|_Methods supported: GET HEAD CONNECTION
+|_http-server-header: squid/3.5.12
+|_http-title: ERROR: The requested URL could not be retrieved
+10445/tcp open  unknown
+| fingerprint-strings: 
+|   Help, NULL, SSLSessionReq, giop: 
+|     Microsoft Windows 7 Home Premium Service Pack 1 EN-US
+|_    Error Number 42893. Port reopened and safe from scanners.
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port10445-TCP:V=7.91%I=7%D=2/22%Time=60342601%P=x86_64-pc-linux-gnu%r(N
+SF:ULL,74,"Microsoft\x20Windows\x207\x20Home\x20Premium\x20Service\x20Pack
+SF:\x201\x20EN-US\nSMB\x20Error\x20Number\x2042893\.\x20Port\x20reopened\x
+SF:20and\x20safe\x20from\x20scanners\.\n")%r(Help,74,"Microsoft\x20Windows
+SF:\x207\x20Home\x20Premium\x20Service\x20Pack\x201\x20EN-US\nSMB\x20Error
+SF:\x20Number\x2042893\.\x20Port\x20reopened\x20and\x20safe\x20from\x20sca
+SF:nners\.\n")%r(SSLSessionReq,74,"Microsoft\x20Windows\x207\x20Home\x20Pr
+SF:emium\x20Service\x20Pack\x201\x20EN-US\nSMB\x20Error\x20Number\x2042893
+SF:\.\x20Port\x20reopened\x20and\x20safe\x20from\x20scanners\.\n")%r(giop,
+SF:74,"Microsoft\x20Windows\x207\x20Home\x20Premium\x20Service\x20Pack\x20
+SF:1\x20EN-US\nSMB\x20Error\x20Number\x2042893\.\x20Port\x20reopened\x20an
+SF:d\x20safe\x20from\x20scanners\.\n");
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.91%E=4%D=2/22%OT=3389%CT=1%CU=31279%PV=Y%DS=3%DC=T%G=Y%TM=60342
+OS:626%P=x86_64-pc-linux-gnu)SEQ(SP=107%GCD=1%ISR=107%TI=Z%II=I%TS=8)OPS(O1
+OS:=M51CST11NW7%O2=M51CST11NW7%O3=M51CNNT11NW7%O4=M51CST11NW7%O5=M51CST11NW
+OS:7%O6=M51CST11)WIN(W1=7120%W2=7120%W3=7120%W4=7120%W5=7120%W6=7120)ECN(R=
+OS:Y%DF=Y%T=40%W=7210%O=M51CNNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%R
+OS:D=0%Q=)T2(R=N)T3(R=N)T4(R=N)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q
+OS:=)T6(R=N)T7(R=N)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=
+OS:G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 3 hops
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT       ADDRESS
+1   112.93 ms 10.10.0.1
+2   113.46 ms 10.10.5.1
+3   113.13 ms 10.10.10.41
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 2487.48 seconds

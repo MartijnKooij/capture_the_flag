@@ -1,0 +1,13 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-02-22 21:57 CET
+Nmap scan report for 10.10.10.41
+Host is up (0.11s latency).
+Not shown: 999 closed ports
+PORT     STATE SERVICE    VERSION
+3389/tcp open  http-proxy Squid http proxy 3.5.12
+| http-open-proxy: Potentially OPEN proxy.
+|_Methods supported: GET HEAD CONNECTION
+|_http-server-header: squid/3.5.12
+|_http-title: ERROR: The requested URL could not be retrieved
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 31.72 seconds
