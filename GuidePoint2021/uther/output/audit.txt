@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Mon Feb 22 17:01:41 2021
+Invocation: foremost -i ./uther.jpg 
+Output directory: /mnt/d/Private/git/capture_the_flag/GuidePoint2021/uther/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: ./uther.jpg
+Start: Mon Feb 22 17:01:41 2021
+Length: 25 KB (26314 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000000.jpg 	      25 KB 	          0 	 
+Finish: Mon Feb 22 17:01:41 2021
+
+1 FILES EXTRACTED
+	
+jpg:= 1
+------------------------------------------------------------------
+
+Foremost finished at Mon Feb 22 17:01:41 2021

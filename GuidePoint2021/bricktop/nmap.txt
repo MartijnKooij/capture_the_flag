@@ -1,0 +1,28 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-02-22 15:41 CET
+Nmap scan report for ip-10-10-10-25.eu-west-1.compute.internal (10.10.10.25)
+Host is up (0.11s latency).
+Not shown: 994 closed ports
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+5432/tcp open  postgresql    PostgreSQL DB 9.5.8 - 9.5.10 or 9.5.17 - 9.5.21
+8009/tcp open  ajp13         Apache Jserv (Protocol v1.3)
+| ajp-methods: 
+|_  Supported methods: GET HEAD POST OPTIONS
+8080/tcp open  http          Apache Tomcat 9.0.24
+|_http-favicon: Apache Tomcat
+|_http-title: Apache Tomcat/9.0.24
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: -3m33s
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2021-02-22T14:38:16
+|_  start_date: N/A
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 32.83 seconds
