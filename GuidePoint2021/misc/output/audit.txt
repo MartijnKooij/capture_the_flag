@@ -1,0 +1,25 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sat Feb 20 17:37:29 2021
+Invocation: foremost -i ./kirby.png 
+Output directory: /home/martijnkooij/capture_the_flag/GuidePoint2021/misc/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: ./kirby.png
+Start: Sat Feb 20 17:37:29 2021
+Length: 842 KB (863091 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00001671.zip 	       7 KB 	     855740 	 
+1:	00000000.png 	     835 KB 	          0 	  (1460 x 1444)
+Finish: Sat Feb 20 17:37:29 2021
+
+2 FILES EXTRACTED
+	
+zip:= 1
+png:= 1
+------------------------------------------------------------------
+
+Foremost finished at Sat Feb 20 17:37:29 2021
