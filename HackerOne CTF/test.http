@@ -1,0 +1,7 @@
+#
+PATCH https://cc38c0aec6469015362580ced9d5eecc.ctf.hacker101.com/api/v1/status HTTP/1.1
+content-type: application/json
+
+{
+    "live": false
+}

